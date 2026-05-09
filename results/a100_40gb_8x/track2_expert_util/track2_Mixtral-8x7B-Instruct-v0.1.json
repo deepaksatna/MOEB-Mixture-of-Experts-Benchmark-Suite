@@ -1,0 +1,529 @@
+{
+  "model": "/home/opc/moeb/models/Mixtral-8x7B-Instruct-v0.1",
+  "n_prompts": 24,
+  "max_new_tokens": 128,
+  "n_experts_per_layer": 8,
+  "top_k": 2,
+  "wall_seconds": 209.20141744613647,
+  "layers": {
+    "0": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1139,
+        1010,
+        1039,
+        945,
+        1113,
+        1446,
+        1118,
+        1094
+      ],
+      "gini": 0.061882300089847186,
+      "kl_from_uniform": 0.0074979181618164276,
+      "dead_experts": 0
+    },
+    "1": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1026,
+        1160,
+        1185,
+        1224,
+        1103,
+        1052,
+        1219,
+        935
+      ],
+      "gini": 0.048349056603773644,
+      "kl_from_uniform": 0.0037975428107676658,
+      "dead_experts": 0
+    },
+    "2": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1137,
+        1286,
+        1029,
+        895,
+        1118,
+        1188,
+        1165,
+        1086
+      ],
+      "gini": 0.05317834681042233,
+      "kl_from_uniform": 0.004853527956355141,
+      "dead_experts": 0
+    },
+    "3": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1276,
+        1185,
+        1113,
+        925,
+        1232,
+        1089,
+        1000,
+        1084
+      ],
+      "gini": 0.05536837376460024,
+      "kl_from_uniform": 0.004858205806383726,
+      "dead_experts": 0
+    },
+    "4": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1093,
+        1090,
+        1162,
+        1013,
+        1147,
+        1147,
+        1066,
+        1186
+      ],
+      "gini": 0.02689802336028757,
+      "kl_from_uniform": 0.0011786441573606778,
+      "dead_experts": 0
+    },
+    "5": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1289,
+        1038,
+        969,
+        1047,
+        1159,
+        1169,
+        1150,
+        1083
+      ],
+      "gini": 0.04629941599281229,
+      "kl_from_uniform": 0.0034706444672913967,
+      "dead_experts": 0
+    },
+    "6": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1146,
+        1033,
+        1202,
+        903,
+        1099,
+        1025,
+        1140,
+        1356
+      ],
+      "gini": 0.06227538185085346,
+      "kl_from_uniform": 0.006385785536908627,
+      "dead_experts": 0
+    },
+    "7": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        966,
+        1311,
+        1068,
+        1074,
+        1126,
+        1150,
+        1130,
+        1079
+      ],
+      "gini": 0.04267744833782561,
+      "kl_from_uniform": 0.003343276446078721,
+      "dead_experts": 0
+    },
+    "8": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        938,
+        977,
+        900,
+        1063,
+        1335,
+        1243,
+        1368,
+        1080
+      ],
+      "gini": 0.08529874213836486,
+      "kl_from_uniform": 0.01145395569166742,
+      "dead_experts": 0
+    },
+    "9": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1123,
+        1401,
+        979,
+        1122,
+        722,
+        1284,
+        937,
+        1336
+      ],
+      "gini": 0.10759209344115006,
+      "kl_from_uniform": 0.019051244389264015,
+      "dead_experts": 0
+    },
+    "10": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1128,
+        1204,
+        1038,
+        1306,
+        1299,
+        981,
+        829,
+        1119
+      ],
+      "gini": 0.07631401617250666,
+      "kl_from_uniform": 0.009529146410672498,
+      "dead_experts": 0
+    },
+    "11": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1294,
+        1166,
+        1235,
+        448,
+        1152,
+        1254,
+        1177,
+        1178
+      ],
+      "gini": 0.09321653189577717,
+      "kl_from_uniform": 0.032783696236695775,
+      "dead_experts": 0
+    },
+    "12": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1136,
+        1345,
+        1295,
+        1223,
+        1288,
+        956,
+        1137,
+        524
+      ],
+      "gini": 0.11208445642407905,
+      "kl_from_uniform": 0.029371624427451365,
+      "dead_experts": 0
+    },
+    "13": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1151,
+        1085,
+        1099,
+        1145,
+        908,
+        1087,
+        1183,
+        1246
+      ],
+      "gini": 0.04343553459119498,
+      "kl_from_uniform": 0.0035724889380143675,
+      "dead_experts": 0
+    },
+    "14": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1066,
+        1175,
+        756,
+        1184,
+        1191,
+        1081,
+        1251,
+        1200
+      ],
+      "gini": 0.0628088499550763,
+      "kl_from_uniform": 0.009455622583403045,
+      "dead_experts": 0
+    },
+    "15": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1140,
+        1043,
+        1229,
+        623,
+        1518,
+        1115,
+        1182,
+        1054
+      ],
+      "gini": 0.10674977538185093,
+      "kl_from_uniform": 0.023213162403390566,
+      "dead_experts": 0
+    },
+    "16": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1049,
+        1075,
+        1071,
+        939,
+        1197,
+        1004,
+        1247,
+        1322
+      ],
+      "gini": 0.06098382749326148,
+      "kl_from_uniform": 0.005905146589511884,
+      "dead_experts": 0
+    },
+    "17": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1074,
+        1217,
+        1196,
+        852,
+        1093,
+        1067,
+        1177,
+        1228
+      ],
+      "gini": 0.05379604672057492,
+      "kl_from_uniform": 0.005665455280668676,
+      "dead_experts": 0
+    },
+    "18": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1344,
+        951,
+        1152,
+        1176,
+        1202,
+        915,
+        1103,
+        1061
+      ],
+      "gini": 0.06530772686433073,
+      "kl_from_uniform": 0.006829113502967481,
+      "dead_experts": 0
+    },
+    "19": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1041,
+        884,
+        1222,
+        960,
+        1336,
+        1282,
+        1177,
+        1002
+      ],
+      "gini": 0.07819519317160828,
+      "kl_from_uniform": 0.009511790729379556,
+      "dead_experts": 0
+    },
+    "20": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1073,
+        1192,
+        973,
+        1252,
+        1097,
+        1226,
+        999,
+        1092
+      ],
+      "gini": 0.0484332884097034,
+      "kl_from_uniform": 0.0036972986748667032,
+      "dead_experts": 0
+    },
+    "21": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1304,
+        1347,
+        948,
+        1116,
+        1170,
+        1091,
+        1134,
+        794
+      ],
+      "gini": 0.0829121743036838,
+      "kl_from_uniform": 0.011695931401931411,
+      "dead_experts": 0
+    },
+    "22": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        932,
+        1345,
+        1014,
+        982,
+        1265,
+        1153,
+        1216,
+        997
+      ],
+      "gini": 0.07162511230907453,
+      "kl_from_uniform": 0.008125801311159843,
+      "dead_experts": 0
+    },
+    "23": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1215,
+        942,
+        1170,
+        1161,
+        1240,
+        957,
+        1038,
+        1181
+      ],
+      "gini": 0.0535433513027852,
+      "kl_from_uniform": 0.004935777941057927,
+      "dead_experts": 0
+    },
+    "24": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1073,
+        1129,
+        1089,
+        1177,
+        995,
+        1027,
+        1155,
+        1259
+      ],
+      "gini": 0.04048742138364769,
+      "kl_from_uniform": 0.002557740069060472,
+      "dead_experts": 0
+    },
+    "25": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1061,
+        1163,
+        1365,
+        951,
+        960,
+        1215,
+        1181,
+        1008
+      ],
+      "gini": 0.06730121293800528,
+      "kl_from_uniform": 0.007194785778406014,
+      "dead_experts": 0
+    },
+    "26": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        929,
+        1078,
+        1424,
+        1164,
+        1046,
+        993,
+        1100,
+        1170
+      ],
+      "gini": 0.066346585804133,
+      "kl_from_uniform": 0.0076376134141165584,
+      "dead_experts": 0
+    },
+    "27": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1089,
+        1037,
+        1156,
+        1269,
+        1033,
+        1186,
+        930,
+        1204
+      ],
+      "gini": 0.052532569631626336,
+      "kl_from_uniform": 0.004385501023321378,
+      "dead_experts": 0
+    },
+    "28": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1180,
+        1071,
+        1150,
+        1147,
+        1236,
+        1018,
+        948,
+        1154
+      ],
+      "gini": 0.04321091644204844,
+      "kl_from_uniform": 0.00317458327778097,
+      "dead_experts": 0
+    },
+    "29": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1067,
+        1033,
+        1086,
+        1303,
+        1168,
+        1214,
+        1008,
+        1025
+      ],
+      "gini": 0.048208670260557085,
+      "kl_from_uniform": 0.003828019988511693,
+      "dead_experts": 0
+    },
+    "30": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1338,
+        1193,
+        1208,
+        925,
+        1487,
+        595,
+        998,
+        1160
+      ],
+      "gini": 0.1259546271338725,
+      "kl_from_uniform": 0.02855549396541089,
+      "dead_experts": 0
+    },
+    "31": {
+      "total_tokens_routed": 8904,
+      "expert_counts": [
+        1159,
+        1047,
+        1082,
+        1257,
+        1039,
+        1036,
+        1271,
+        1013
+      ],
+      "gini": 0.046411725067385445,
+      "kl_from_uniform": 0.003695384884232187,
+      "dead_experts": 0
+    }
+  },
+  "summary": {
+    "mean_gini": 0.06530246237646001,
+    "mean_kl_from_uniform": 0.009100372632997034,
+    "dead_experts_total": 0,
+    "expert_slots_total": 256,
+    "dead_fraction": 0.0
+  }
+}

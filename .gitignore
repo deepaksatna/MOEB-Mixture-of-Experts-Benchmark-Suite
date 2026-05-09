@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+.venv-*/
+*.egg-info/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Pulled-from-VM logs (large, transient — not part of the published snapshot)
+logs/
+remote-logs/
+
+# Big checkpoints — never commit
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Secrets
+*.key
+*.pem
+.env
+
+# Note: results/moeb_summary.{csv,md} and results/plots/*.png ARE
+# committed — they are the published artifacts. Run
+# `python3 scripts/analysis/{aggregate_results,make_plots}.py` to
+# regenerate them from results/a100_40gb_8x/*.json after pulling new data.

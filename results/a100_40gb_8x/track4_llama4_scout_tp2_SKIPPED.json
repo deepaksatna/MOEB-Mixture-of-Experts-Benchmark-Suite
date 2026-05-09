@@ -1,0 +1,1 @@
+{"model":"llama4-scout","tp":2,"status":"skipped","reason":"weights 109GB / 2 > 40GB per A100"}

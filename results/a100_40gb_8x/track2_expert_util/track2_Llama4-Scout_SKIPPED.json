@@ -1,0 +1,1 @@
+{"model":"llama4-scout","track":"T2","status":"skipped","reason":"Llama4ForConditionalGeneration is multimodal (text+vision) and uses compressed-tensors FP8 quantisation; routing structure at language_model.model.layers.X.feed_forward.router differs from Qwen/Mixtral. Needs custom T2 implementation."}

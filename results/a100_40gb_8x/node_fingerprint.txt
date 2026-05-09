@@ -1,0 +1,61 @@
+# Node fingerprint — 2026-05-09T12:16:35Z
+## host
+Linux demo 5.15.0-319.201.4.4.el9uek.x86_64 #2 SMP Thu Apr 30 11:42:52 PDT 2026 x86_64 x86_64 x86_64 GNU/Linux
+## os
+NAME="Oracle Linux Server"
+VERSION="9.7"
+ID="ol"
+ID_LIKE="fedora"
+VARIANT="Server"
+## cpu
+Model name:                              AMD EPYC 7542 32-Core Processor
+Thread(s) per core:                      2
+Core(s) per socket:                      32
+Socket(s):                               2
+NUMA node(s):                            8
+NUMA node0 CPU(s):                       0-7,64-71
+NUMA node1 CPU(s):                       8-15,72-79
+NUMA node2 CPU(s):                       16-23,80-87
+NUMA node3 CPU(s):                       24-31,88-95
+NUMA node4 CPU(s):                       32-39,96-103
+NUMA node5 CPU(s):                       40-47,104-111
+NUMA node6 CPU(s):                       48-55,112-119
+NUMA node7 CPU(s):                       56-63,120-127
+## ram
+               total        used        free      shared  buff/cache   available
+Mem:           2.0Ti        31Gi       1.9Ti        73Mi        81Gi       1.9Ti
+## gpu
+index, name, memory.total [MiB], driver_version, compute_cap, uuid
+0, NVIDIA A100-SXM4-40GB, 40960 MiB, 590.48.01, 8.0, GPU-2976b988-70ba-c8a6-c926-a45858aa3cda
+1, NVIDIA A100-SXM4-40GB, 40960 MiB, 590.48.01, 8.0, GPU-6d0b9e44-73ef-1246-befc-1c03c478aea6
+2, NVIDIA A100-SXM4-40GB, 40960 MiB, 590.48.01, 8.0, GPU-c43b1e43-ec31-4816-afb4-b3b7cb97eb3b
+3, NVIDIA A100-SXM4-40GB, 40960 MiB, 590.48.01, 8.0, GPU-37cc94d5-e63d-40ee-aa50-fa9c6a909872
+4, NVIDIA A100-SXM4-40GB, 40960 MiB, 590.48.01, 8.0, GPU-13c8a698-5e4c-9096-6a6a-010d76815bb6
+5, NVIDIA A100-SXM4-40GB, 40960 MiB, 590.48.01, 8.0, GPU-365d69aa-a2be-240c-772a-aba59515c765
+6, NVIDIA A100-SXM4-40GB, 40960 MiB, 590.48.01, 8.0, GPU-9f855b3d-2f55-81f6-245a-2e15a64ceaec
+7, NVIDIA A100-SXM4-40GB, 40960 MiB, 590.48.01, 8.0, GPU-441962b4-b92e-6c02-512e-79cf8c633321
+## nvlink
+GPU 0: NVIDIA A100-SXM4-40GB (UUID: GPU-2976b988-70ba-c8a6-c926-a45858aa3cda)
+	 Link 0: 25 GB/s
+	 Link 1: 25 GB/s
+	 Link 2: 25 GB/s
+	 Link 3: 25 GB/s
+	 Link 4: 25 GB/s
+	 Link 5: 25 GB/s
+	 Link 6: 25 GB/s
+	 Link 7: 25 GB/s
+	 Link 8: 25 GB/s
+	 Link 9: 25 GB/s
+	 Link 10: 25 GB/s
+	 Link 11: 25 GB/s
+GPU 1: NVIDIA A100-SXM4-40GB (UUID: GPU-6d0b9e44-73ef-1246-befc-1c03c478aea6)
+	 Link 0: 25 GB/s
+	 Link 1: 25 GB/s
+	 Link 2: 25 GB/s
+	 Link 3: 25 GB/s
+	 Link 4: 25 GB/s
+	 Link 5: 25 GB/s
+## software
+vllm 0.10.0
+torch 2.7.1+cu128
+cuda 12.8
